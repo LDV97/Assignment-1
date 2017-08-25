@@ -7,7 +7,7 @@ int main ()
 {
 	int n, lp, choice= 0;
 	double *data, n2, n3;
-	do
+	while (choice!=7)
 	{
 		lp=0, n2=0;
 		cout<<endl;
@@ -70,6 +70,5 @@ int main ()
 					break;
 		}
 	}
-	while (choice!=7);
 	return 0;
 }
